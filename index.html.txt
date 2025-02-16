@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>和我交往吧！🥺</title>
+    <!-- 引入字体和CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>❤️ 你好呀，<span id="name">XXX</span>！ ❤️</h1>
+        <p class="text">今天想对你说...</p>
+        <button onclick="showLove()">点这里！有惊喜！</button>
+        <div id="heart-container"></div>
+    </div>
+    <!-- 引入动画脚本 -->
+    <script src="script.js"></script>
+</body>
+</html>
